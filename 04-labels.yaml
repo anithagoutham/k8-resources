@@ -1,8 +1,8 @@
-kind: pod
+kind: Pod
 apiVersion: v1
-metadata: 
+metadata:
   name: labels
-  labels: 
+  labels:
     project: expense
     module: backend
     environment: dev
