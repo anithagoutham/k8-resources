@@ -29,11 +29,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: ebs-static
-#   labels:
-#     purpose: ebs-static
-# spec:
-#   nodeSelector:
-#     topology.kubernetes.io/zone: us-east-1f
+spec:
   containers:
   - name: nginx
     image: nginx
